@@ -1439,3 +1439,53 @@ img {
     }
   }
 }
+@media (max-width: 768px) {
+
+    /* MOBILE HERO IMAGE CINEMATIC FIX */
+
+    .hero-slide img,
+    .hero-image,
+    .hero-bg {
+        object-fit: cover;
+        object-position: center top;
+    }
+
+    .hero-section {
+        min-height: 100vh;
+    }
+
+    /* MOBILE HERO TEXT SPACING */
+
+    .hero-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+    }
+
+    /* MOBILE MENU RIGHT DROPDOWN */
+
+    #mobile-menu {
+        position: absolute;
+        top: 85px;
+        right: 16px;
+        left: auto;
+        width: 220px;
+        background: rgba(0, 0, 0, 0.92);
+        backdrop-filter: blur(14px);
+        border-radius: 18px;
+        padding: 18px;
+        text-align: left;
+        z-index: 9999;
+    }
+
+    #mobile-menu a {
+        display: block;
+        padding: 12px 10px;
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    #mobile-menu a:last-child {
+        border-bottom: none;
+    }
+
+}
