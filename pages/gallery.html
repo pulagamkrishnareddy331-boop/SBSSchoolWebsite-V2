@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        School Gallery
+    </title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="../css/style.css">
+
+    <!-- GOOGLE FONT -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+          <!-- LUCIDE ICONS -->
+
+<script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body class="bg-black text-white font-[Poppins]">
+
+    <!-- ================= HEADER ================= -->
+
+    <section class="py-24 px-6 md:px-16 lg:px-24 text-center">
+
+        <p class="uppercase tracking-[8px] text-yellow-400 font-semibold">
+
+            School Gallery
+
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-bold mt-8">
+
+            Capturing School Life
+
+        </h1>
+
+        <p class="mt-8 text-gray-400 max-w-3xl mx-auto text-lg leading-relaxed">
+
+            Explore memorable moments,
+            activities,
+            achievements,
+            classrooms,
+            and student experiences
+            at SHREE BASAVESHWARA SMART SCHOOL.
+
+        </p>
+
+    </section>
+
+    <!-- ================= GALLERY GRID ================= -->
+
+    <section class="px-6 md:px-16 lg:px-24 pb-24">
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- IMAGE 1 -->
+
+            <div class="overflow-hidden rounded-3xl group cursor-pointer">
+
+                <img src="../assets/images/gallery/gallery1.jpg"
+                     class="gallery-image w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+
+            </div>
+
+            <!-- IMAGE 2 -->
+
+            <div class="overflow-hidden rounded-3xl group cursor-pointer">
+
+                <img src="../assets/images/gallery/gallery2.jpg"
+                     class="gallery-image w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+
+            </div>
+
+            <!-- IMAGE 3 -->
+
+            <div class="overflow-hidden rounded-3xl group cursor-pointer">
+
+                <img src="../assets/images/gallery/gallery3.jpg"
+                     class="gallery-image w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+
+            </div>
+
+            <!-- IMAGE 4 -->
+
+            <div class="overflow-hidden rounded-3xl group cursor-pointer">
+
+                <img src="../assets/images/gallery/gallery4.jpg"
+                     class="gallery-image w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+
+            </div>
+
+            <!-- IMAGE 5 -->
+
+            <div class="overflow-hidden rounded-3xl group cursor-pointer">
+
+                <img src="../assets/images/gallery/gallery5.jpg"
+                     class="gallery-image w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+
+            </div>
+
+            <!-- IMAGE 6 -->
+
+            <div class="overflow-hidden rounded-3xl group cursor-pointer">
+
+                <img src="../assets/images/gallery/gallery6.jpg"
+                     class="gallery-image w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+
+            </div>
+            <div class="overflow-hidden rounded-3xl group cursor-pointer">
+
+    <img src="../assets/images/gallery/gallery7.jpg"
+         class="gallery-image w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+
+</div>
+<div class="overflow-hidden rounded-3xl group cursor-pointer">
+
+    <img src="../assets/images/gallery/gallery8.jpg"
+         class="gallery-image w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+
+</div>
+<div class="overflow-hidden rounded-3xl group cursor-pointer">
+
+    <img src="../assets/images/gallery/gallery9.jpg"
+         class="gallery-image w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+
+</div>
+<div class="overflow-hidden rounded-3xl group cursor-pointer">
+
+    <img src="../assets/images/gallery/gallery10.jpg"
+         class="gallery-image w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= LIGHTBOX ================= -->
+
+    <div id="lightbox"
+         class="fixed inset-0 bg-black/95 hidden items-center justify-center z-50 p-6">
+
+        <!-- CLOSE BUTTON -->
+
+        <button id="close-lightbox"
+                class="absolute top-6 right-8 text-white text-5xl">
+
+            ×
+
+        </button>
+
+        <!-- LIGHTBOX IMAGE -->
+
+        <img id="lightbox-image"
+             class="max-w-full max-h-full rounded-2xl">
+
+    </div>
+
+    <!-- JS -->
+
+    <script src="../js/script.js"></script>
+
+    <!-- LUCIDE ICONS INIT -->
+
+<script>
+
+    window.addEventListener("DOMContentLoaded", () => {
+
+        lucide.createIcons();
+
+    });
+
+</script>
+
+</body>
+
+</html>
